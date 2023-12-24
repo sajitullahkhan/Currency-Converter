@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(206, 240, 240);
+}
+
+.body{
+    padding: 50px 70px 70px 70px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px;
+    background-color: white;
+}
+
+.title{
+    margin-bottom: 30px;
+}
+
+#input-amount{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: x-large;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+.select{
+    border: none;
+}
+
+.select-container{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+    border-radius: 10px;
+}
+
+.flags-img{
+    height: 30px;
+    border-radius: 20px;
+}
+
+.converter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    margin-top: 15px;
+    height: 25px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.btn{
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(233, 180, 8);
+    font-weight: bolder;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    cursor: pointer;
+}
